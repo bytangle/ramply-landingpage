@@ -31,10 +31,9 @@ const Index = () => {
         </div>
       </header>
 
-      {/* Main Content - Centered */}
-      <main className="flex-1 flex flex-col justify-center items-center px-4 sm:px-6" role="main">
-        {/* Hero Section - Perfectly Centered */}
-        <section className="text-center space-y-4 sm:space-y-6 max-w-4xl w-full" aria-labelledby="hero-heading">
+      {/* Hero Section - Full Screen on Mobile */}
+      <section className="min-h-[calc(100vh-120px)] md:min-h-0 flex items-center justify-center px-4 sm:px-6 md:flex-1" aria-labelledby="hero-heading">
+        <div className="text-center space-y-4 sm:space-y-6 max-w-4xl w-full">
           <div className="text-xs sm:text-sm font-medium text-primary tracking-widest uppercase">
             ramply.xyz
           </div>
@@ -61,10 +60,12 @@ const Index = () => {
               Join Waitlist
             </Button>
           </div>
-        </section>
+        </div>
+      </section>
 
-        {/* Features Section */}
-        <section className="mt-12 sm:mt-16 w-full max-w-5xl" aria-labelledby="features-heading">
+      {/* Features Section - Separate section for mobile scrolling */}
+      <section className="py-12 md:py-0 md:mt-16 px-4 sm:px-6 w-full max-w-5xl mx-auto md:flex-1 md:flex md:items-center" aria-labelledby="features-heading">
+        <div className="w-full">
           <h2 id="features-heading" className="sr-only">Ramply Features and Services</h2>
           
           {/* Mobile Layout - Stacked */}
@@ -252,8 +253,8 @@ const Index = () => {
               </div>
             </article>
           </div>
-        </section>
-      </main>
+        </div>
+      </section>
 
       {/* Footer */}
       <footer className="py-3 sm:py-4 px-4 sm:px-6 flex-shrink-0" role="contentinfo">
