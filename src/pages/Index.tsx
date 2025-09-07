@@ -45,7 +45,7 @@ const Index = () => {
           </h1>
           
           <p className="text-lg text-muted-foreground max-w-md mx-auto">
-            Convert between crypto and fiat instantly
+            Convert between crypto and local fiat instantly
           </p>
           
           <Button 
@@ -59,9 +59,9 @@ const Index = () => {
 
         {/* Columns - Below hero */}
         <div className="mt-16 w-full max-w-4xl px-6">
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-3 gap-8 divide-x divide-border">
             {/* How It Works */}
-            <div>
+            <div className="pr-8 first:pr-0 first:pl-0 pl-8">
               <h2 className="text-lg font-semibold mb-4 text-foreground text-left">
                 How It Works
               </h2>
@@ -91,7 +91,7 @@ const Index = () => {
             </div>
 
             {/* For Developers */}
-            <div>
+            <div className="pr-8 first:pr-0 first:pl-0 pl-8">
               <h2 className="text-lg font-semibold mb-4 text-foreground text-left">
                 For Developers
               </h2>
@@ -121,7 +121,7 @@ const Index = () => {
             </div>
 
             {/* For Users */}
-            <div>
+            <div className="pr-8 first:pr-0 first:pl-0 pl-8">
               <h2 className="text-lg font-semibold mb-4 text-foreground text-left">
                 For Everyone
               </h2>
