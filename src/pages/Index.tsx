@@ -9,16 +9,16 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-background">
       {/* Hero Section */}
-      <section className="min-h-screen flex items-center justify-center px-6 py-20">
-        <div className="max-w-3xl mx-auto text-center animate-fade-in">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-foreground leading-tight">
+      <section className="min-h-screen flex items-center justify-center px-6 py-12">
+        <div className="max-w-3xl mx-auto text-center">
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 text-foreground leading-tight">
             The Seamless{" "}
             <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
               Crypto Ramp
             </span>
           </h1>
           
-          <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
+          <p className="text-lg md:text-xl text-muted-foreground mb-6 max-w-2xl mx-auto">
             Bridge local currency ↔ crypto instantly.
             <br />
             <span className="font-medium text-foreground">API-first.</span> Stablecoins + native tokens.
@@ -27,7 +27,6 @@ const Index = () => {
           <Button 
             variant="hero" 
             size="xl"
-            className="animate-slide-up"
             onClick={() => window.open('https://docs.google.com/forms/d/e/1FAIpQLSdExample/viewform', '_blank')}
           >
             join_waitlist()

@@ -3,40 +3,40 @@ import { Button } from "@/components/ui/button";
 
 const ForConsumers = () => {
   return (
-    <section className="py-20 px-6 bg-muted/30">
+    <section className="py-12 px-6">
       <div className="max-w-4xl mx-auto text-center">
-        <h2 className="text-3xl md:text-4xl font-bold mb-6 text-foreground">
+        <h2 className="text-3xl md:text-4xl font-bold mb-3 text-foreground">
           for_users()
         </h2>
         
-        <p className="text-lg text-muted-foreground mb-12 max-w-2xl mx-auto">
+        <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
           Buy crypto with local currency. Cash out to bank.
           <br />
           <span className="text-sm">// no signup for small amounts</span>
         </p>
         
-        <div className="grid md:grid-cols-3 gap-8 mb-12">
-          <div className="p-6">
-            <div className="w-12 h-12 bg-secondary/10 rounded-lg flex items-center justify-center mx-auto mb-4">
-              <Smartphone className="w-6 h-6 text-secondary" />
+        <div className="grid md:grid-cols-3 gap-6 mb-8">
+          <div className="p-4">
+            <div className="w-10 h-10 bg-secondary/10 rounded-lg flex items-center justify-center mx-auto mb-3">
+              <Smartphone className="w-5 h-5 text-secondary" />
             </div>
-            <h3 className="font-semibold text-foreground mb-2">Mobile-first</h3>
+            <h3 className="font-semibold text-foreground mb-1">Mobile-first</h3>
             <p className="text-muted-foreground text-sm">Optimized UX</p>
           </div>
           
-          <div className="p-6">
-            <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mx-auto mb-4">
-              <Shield className="w-6 h-6 text-primary" />
+          <div className="p-4">
+            <div className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center mx-auto mb-3">
+              <Shield className="w-5 h-5 text-primary" />
             </div>
-            <h3 className="font-semibold text-foreground mb-2">Secure</h3>
+            <h3 className="font-semibold text-foreground mb-1">Secure</h3>
             <p className="text-muted-foreground text-sm">Bank-grade security</p>
           </div>
           
-          <div className="p-6">
-            <div className="w-12 h-12 bg-secondary/10 rounded-lg flex items-center justify-center mx-auto mb-4">
-              <Zap className="w-6 h-6 text-secondary" />
+          <div className="p-4">
+            <div className="w-10 h-10 bg-secondary/10 rounded-lg flex items-center justify-center mx-auto mb-3">
+              <Zap className="w-5 h-5 text-secondary" />
             </div>
-            <h3 className="font-semibold text-foreground mb-2">Instant</h3>
+            <h3 className="font-semibold text-foreground mb-1">Instant</h3>
             <p className="text-muted-foreground text-sm">Lightning settlements</p>
           </div>
         </div>
