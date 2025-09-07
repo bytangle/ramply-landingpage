@@ -30,9 +30,8 @@ const Index = () => {
             </span>
           </h1>
           
-          <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto leading-relaxed">
-            Bridge local currency and cryptocurrency with instant conversions. 
-            API-first platform supporting stablecoins and native tokens.
+          <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
+            Convert between crypto and fiat instantly.
           </p>
           
           <Button 
@@ -53,9 +52,6 @@ const Index = () => {
             <h2 className="text-4xl font-bold mb-4 text-foreground">
               How It Works
             </h2>
-            <p className="text-xl text-muted-foreground">
-              Simple, fast, and secure in three steps
-            </p>
           </div>
           
           <div className="grid md:grid-cols-3 gap-8">
@@ -67,7 +63,7 @@ const Index = () => {
                 Enter Amount
               </h3>
               <p className="text-muted-foreground">
-                Specify the amount and currency pair you want to exchange
+                Specify amount and currency pair
               </p>
             </div>
 
@@ -79,7 +75,7 @@ const Index = () => {
                 Get Instructions
               </h3>
               <p className="text-muted-foreground">
-                Receive secure payment instructions for your transaction
+                Receive payment instructions
               </p>
             </div>
 
@@ -91,7 +87,7 @@ const Index = () => {
                 Receive Instantly
               </h3>
               <p className="text-muted-foreground">
-                Get your crypto or fiat instantly after confirmation
+                Get funds after confirmation
               </p>
             </div>
           </div>
@@ -109,7 +105,7 @@ const Index = () => {
                 Built for Developers
               </h2>
               <p className="text-xl text-muted-foreground mb-8">
-                Integrate our API to accept fiat payments and distribute crypto seamlessly.
+                Integrate our API to accept payments and distribute crypto.
               </p>
               
               <div className="space-y-6">
@@ -119,7 +115,7 @@ const Index = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold text-foreground mb-2">RESTful APIs</h3>
-                    <p className="text-muted-foreground">Clean, well-documented APIs with comprehensive SDKs</p>
+                    <p className="text-muted-foreground">Clean APIs with comprehensive SDKs</p>
                   </div>
                 </div>
                 
@@ -128,18 +124,8 @@ const Index = () => {
                     <Zap className="w-6 h-6 text-secondary" />
                   </div>
                   <div>
-                    <h3 className="font-semibold text-foreground mb-2">Real-time Webhooks</h3>
-                    <p className="text-muted-foreground">Get instant notifications for transaction updates</p>
-                  </div>
-                </div>
-                
-                <div className="flex items-start gap-4">
-                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
-                    <Shield className="w-6 h-6 text-primary" />
-                  </div>
-                  <div>
-                    <h3 className="font-semibold text-foreground mb-2">Enterprise Security</h3>
-                    <p className="text-muted-foreground">Bank-grade security with 99.9% uptime guarantee</p>
+                    <h3 className="font-semibold text-foreground mb-2">Real-time Updates</h3>
+                    <p className="text-muted-foreground">Instant transaction notifications</p>
                   </div>
                 </div>
               </div>
@@ -161,7 +147,7 @@ const Index = () => {
                 Simple for Everyone
               </h2>
               <p className="text-xl text-muted-foreground mb-8">
-                Buy crypto with your local currency or cash out to your bank account.
+                Buy crypto or cash out to your bank account.
               </p>
               
               <div className="space-y-6">
@@ -171,7 +157,7 @@ const Index = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold text-foreground">Mobile Optimized</h3>
-                    <p className="text-muted-foreground">Works perfectly on any device</p>
+                    <p className="text-muted-foreground">Works on any device</p>
                   </div>
                 </div>
                 
@@ -180,18 +166,8 @@ const Index = () => {
                     <Shield className="w-6 h-6 text-primary" />
                   </div>
                   <div>
-                    <h3 className="font-semibold text-foreground">Fully Secure</h3>
-                    <p className="text-muted-foreground">Your funds are always protected</p>
-                  </div>
-                </div>
-                
-                <div className="flex items-center gap-4">
-                  <div className="w-12 h-12 bg-secondary/10 rounded-lg flex items-center justify-center">
-                    <Zap className="w-6 h-6 text-secondary" />
-                  </div>
-                  <div>
-                    <h3 className="font-semibold text-foreground">Lightning Fast</h3>
-                    <p className="text-muted-foreground">Transactions complete in seconds</p>
+                    <h3 className="font-semibold text-foreground">Secure</h3>
+                    <p className="text-muted-foreground">Your funds are protected</p>
                   </div>
                 </div>
               </div>
