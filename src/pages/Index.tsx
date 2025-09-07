@@ -53,7 +53,7 @@ const Index = () => {
             <Button 
               variant="hero" 
               size="lg"
-              className="w-full sm:w-auto min-w-[200px]"
+              className="min-w-[200px]"
               onClick={() => window.open('https://docs.google.com/forms/d/e/1FAIpQLSdExample/viewform', '_blank')}
               aria-label="Join waitlist for early access to Ramply crypto exchange platform"
             >
@@ -75,22 +75,22 @@ const Index = () => {
               <h3 className="text-lg font-semibold mb-4 text-foreground">
                 How It Works
               </h3>
-              <div className="space-y-3" role="list">
-                <div className="flex items-center gap-3 justify-center" role="listitem">
+              <div className="space-y-3 max-w-sm mx-auto" role="list">
+                <div className="flex items-center gap-3" role="listitem">
                   <DollarSign className="w-5 h-5 text-primary flex-shrink-0" aria-hidden="true" />
                   <div className="text-left">
                     <h4 className="font-medium text-sm text-foreground">Enter Amount</h4>
                     <p className="text-xs text-muted-foreground">Specify currency pair</p>
                   </div>
                 </div>
-                <div className="flex items-center gap-3 justify-center" role="listitem">
+                <div className="flex items-center gap-3" role="listitem">
                   <CreditCard className="w-5 h-5 text-primary flex-shrink-0" aria-hidden="true" />
                   <div className="text-left">
                     <h4 className="font-medium text-sm text-foreground">Get Instructions</h4>
                     <p className="text-xs text-muted-foreground">Receive payment details</p>
                   </div>
                 </div>
-                <div className="flex items-center gap-3 justify-center" role="listitem">
+                <div className="flex items-center gap-3" role="listitem">
                   <Zap className="w-5 h-5 text-primary flex-shrink-0" aria-hidden="true" />
                   <div className="text-left">
                     <h4 className="font-medium text-sm text-foreground">Receive Instantly</h4>
@@ -105,22 +105,22 @@ const Index = () => {
               <h3 className="text-lg font-semibold mb-4 text-foreground">
                 For Developers
               </h3>
-              <div className="space-y-3" role="list">
-                <div className="flex items-center gap-3 justify-center" role="listitem">
+              <div className="space-y-3 max-w-sm mx-auto" role="list">
+                <div className="flex items-center gap-3" role="listitem">
                   <Code className="w-5 h-5 text-secondary flex-shrink-0" aria-hidden="true" />
                   <div className="text-left">
                     <h4 className="font-medium text-sm text-foreground">RESTful APIs</h4>
                     <p className="text-xs text-muted-foreground">Clean APIs with SDKs</p>
                   </div>
                 </div>
-                <div className="flex items-center gap-3 justify-center" role="listitem">
+                <div className="flex items-center gap-3" role="listitem">
                   <Zap className="w-5 h-5 text-secondary flex-shrink-0" aria-hidden="true" />
                   <div className="text-left">
                     <h4 className="font-medium text-sm text-foreground">Real-time Updates</h4>
                     <p className="text-xs text-muted-foreground">Instant notifications</p>
                   </div>
                 </div>
-                <div className="flex items-center gap-3 justify-center" role="listitem">
+                <div className="flex items-center gap-3" role="listitem">
                   <Shield className="w-5 h-5 text-secondary flex-shrink-0" aria-hidden="true" />
                   <div className="text-left">
                     <h4 className="font-medium text-sm text-foreground">Enterprise Security</h4>
@@ -135,22 +135,22 @@ const Index = () => {
               <h3 className="text-lg font-semibold mb-4 text-foreground">
                 For Everyone
               </h3>
-              <div className="space-y-3" role="list">
-                <div className="flex items-center gap-3 justify-center" role="listitem">
+              <div className="space-y-3 max-w-sm mx-auto" role="list">
+                <div className="flex items-center gap-3" role="listitem">
                   <Smartphone className="w-5 h-5 text-primary flex-shrink-0" aria-hidden="true" />
                   <div className="text-left">
                     <h4 className="font-medium text-sm text-foreground">Mobile Optimized</h4>
                     <p className="text-xs text-muted-foreground">Works on any device</p>
                   </div>
                 </div>
-                <div className="flex items-center gap-3 justify-center" role="listitem">
+                <div className="flex items-center gap-3" role="listitem">
                   <Shield className="w-5 h-5 text-primary flex-shrink-0" aria-hidden="true" />
                   <div className="text-left">
                     <h4 className="font-medium text-sm text-foreground">Secure</h4>
                     <p className="text-xs text-muted-foreground">Funds are protected</p>
                   </div>
                 </div>
-                <div className="flex items-center gap-3 justify-center" role="listitem">
+                <div className="flex items-center gap-3" role="listitem">
                   <Zap className="w-5 h-5 text-primary flex-shrink-0" aria-hidden="true" />
                   <div className="text-left">
                     <h4 className="font-medium text-sm text-foreground">Lightning Fast</h4>
