@@ -1,6 +1,6 @@
 import { Code, GitBranch, Zap } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import apiImage from "@/assets/api-integration-v2.jpg";
+import apiImage from "@/assets/dev-workspace-hd.jpg";
 
 const ForDevelopers = () => {
   return (

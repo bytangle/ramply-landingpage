@@ -1,6 +1,6 @@
 import { ArrowRight, Code, Smartphone, Wallet } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import heroBackground from "@/assets/hero-bg-v2.jpg";
+import heroBackground from "@/assets/hero-bg-clean.jpg";
 import HowItWorks from "@/components/HowItWorks";
 import ForDevelopers from "@/components/ForDevelopers";
 import ForConsumers from "@/components/ForConsumers";

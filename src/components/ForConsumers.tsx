@@ -1,6 +1,6 @@
 import { Smartphone, Shield, Zap } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import cryptoImage from "@/assets/crypto-coins-v2.jpg";
+import cryptoImage from "@/assets/stablecoins-hd.jpg";
 
 const ForConsumers = () => {
   return (
