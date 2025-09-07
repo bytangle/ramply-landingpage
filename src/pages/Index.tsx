@@ -6,17 +6,26 @@ const Index = () => {
     <div className="min-h-screen bg-background flex flex-col">
       {/* Header */}
       <header className="border-b border-border flex-shrink-0">
-        <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
-          <div className="text-2xl font-bold gradient-primary bg-clip-text text-transparent">
-            ramply.xyz
+        <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-end">
+          <div className="flex items-center gap-4">
+            <a 
+              href="https://twitter.com/ramply" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-muted-foreground hover:text-primary transition-smooth"
+            >
+              <Twitter className="w-4 h-4" />
+            </a>
+            
+            <a 
+              href="https://github.com/ramply" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-muted-foreground hover:text-primary transition-smooth"
+            >
+              <Github className="w-4 h-4" />
+            </a>
           </div>
-          <Button 
-            variant="hero" 
-            size="sm"
-            onClick={() => window.open('https://docs.google.com/forms/d/e/1FAIpQLSdExample/viewform', '_blank')}
-          >
-            Join Waitlist
-          </Button>
         </div>
       </header>
 
@@ -25,20 +34,24 @@ const Index = () => {
         {/* Hero Section */}
         <section className="py-8 px-6">
           <div className="max-w-6xl mx-auto text-center">
-            <h1 className="text-3xl font-bold mb-3 text-foreground">
+            <div className="text-sm font-medium gradient-primary bg-clip-text text-transparent mb-4 tracking-wider">
+              ramply.xyz
+            </div>
+            
+            <h1 className="text-4xl md:text-5xl font-bold mb-6 text-foreground">
               The Seamless{" "}
               <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
                 Crypto Ramp
               </span>
             </h1>
             
-            <p className="text-muted-foreground mb-6">
+            <p className="text-lg text-muted-foreground mb-8">
               Convert between crypto and fiat instantly
             </p>
             
             <Button 
               variant="hero" 
-              size="sm"
+              size="lg"
               onClick={() => window.open('https://docs.google.com/forms/d/e/1FAIpQLSdExample/viewform', '_blank')}
             >
               Join Waitlist
@@ -48,11 +61,11 @@ const Index = () => {
 
         {/* Main Content */}
         <section className="px-6 pb-8 flex-1 flex items-center">
-          <div className="max-w-6xl mx-auto w-full">
+          <div className="max-w-4xl mx-auto w-full">
             <div className="grid md:grid-cols-3 gap-8">
               {/* How It Works */}
-              <div className="text-center">
-                <h2 className="text-lg font-semibold mb-4 text-foreground">
+              <div>
+                <h2 className="text-lg font-semibold mb-4 text-foreground text-left">
                   How It Works
                 </h2>
                 <div className="space-y-4">
@@ -81,8 +94,8 @@ const Index = () => {
               </div>
 
               {/* For Developers */}
-              <div className="text-center">
-                <h2 className="text-lg font-semibold mb-4 text-foreground">
+              <div>
+                <h2 className="text-lg font-semibold mb-4 text-foreground text-left">
                   For Developers
                 </h2>
                 <div className="space-y-4">
@@ -108,20 +121,11 @@ const Index = () => {
                     </div>
                   </div>
                 </div>
-                <div className="mt-6">
-                  <Button 
-                    variant="gradient" 
-                    size="sm"
-                    onClick={() => window.open('https://docs.google.com/forms/d/e/1FAIpQLSdExample/viewform', '_blank')}
-                  >
-                    Get Access
-                  </Button>
-                </div>
               </div>
 
               {/* For Users */}
-              <div className="text-center">
-                <h2 className="text-lg font-semibold mb-4 text-foreground">
+              <div>
+                <h2 className="text-lg font-semibold mb-4 text-foreground text-left">
                   For Everyone
                 </h2>
                 <div className="space-y-4">
@@ -147,15 +151,6 @@ const Index = () => {
                     </div>
                   </div>
                 </div>
-                <div className="mt-6">
-                  <Button 
-                    variant="hero" 
-                    size="sm"
-                    onClick={() => window.open('https://docs.google.com/forms/d/e/1FAIpQLSdExample/viewform', '_blank')}
-                  >
-                    Join Waitlist
-                  </Button>
-                </div>
               </div>
             </div>
           </div>
@@ -163,35 +158,9 @@ const Index = () => {
       </div>
 
       {/* Footer */}
-      <footer className="border-t border-border py-4 px-6 flex-shrink-0">
-        <div className="max-w-6xl mx-auto">
-          <div className="flex flex-col md:flex-row justify-between items-center">
-            <div className="mb-3 md:mb-0">
-              <h3 className="text-sm font-bold gradient-primary bg-clip-text text-transparent">
-                ramply.xyz
-              </h3>
-            </div>
-            
-            <div className="flex items-center gap-4">
-              <a 
-                href="https://twitter.com/ramply" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="text-muted-foreground hover:text-primary transition-smooth"
-              >
-                <Twitter className="w-4 h-4" />
-              </a>
-              
-              <a 
-                href="https://github.com/ramply" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="text-muted-foreground hover:text-primary transition-smooth"
-              >
-                <Github className="w-4 h-4" />
-              </a>
-            </div>
-          </div>
+      <footer className="py-4 px-6 flex-shrink-0">
+        <div className="max-w-6xl mx-auto text-center">
+          <p className="text-xs text-muted-foreground">&copy; 2024 Ramply. All rights reserved.</p>
         </div>
       </footer>
     </div>
