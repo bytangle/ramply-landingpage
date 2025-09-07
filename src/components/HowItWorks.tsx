@@ -5,7 +5,7 @@ const HowItWorks = () => {
     {
       icon: DollarSign,
       title: "Enter Amount & Details",
-      description: "Specify the amount and currency pair you want to exchange. Choose between NGN to crypto or crypto to NGN.",
+      description: "Specify the amount and currency pair you want to exchange. Choose between local currency to crypto or crypto to local currency.",
       delay: "0s"
     },
     {
@@ -17,7 +17,7 @@ const HowItWorks = () => {
     {
       icon: Zap,
       title: "Receive Instantly",
-      description: "Get your crypto or fiat instantly after confirmation. Support for stablecoins and native coins like BTC, ETH.",
+      description: "Get your crypto or fiat instantly after confirmation. Support for stablecoins and native coins across multiple networks.",
       delay: "0.4s"
     }
   ];
