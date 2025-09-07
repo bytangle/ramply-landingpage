@@ -1,4 +1,4 @@
-import { ArrowRight, DollarSign, CreditCard, Zap, Code, Smartphone, Shield, Twitter, Github } from "lucide-react";
+import { ArrowRight, DollarSign, CreditCard, Zap, Code, Smartphone, Shield, Twitter, Linkedin } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const Index = () => {
@@ -9,7 +9,7 @@ const Index = () => {
         <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-end">
           <nav className="flex items-center gap-4" aria-label="Social media links">
             <a 
-              href="https://twitter.com/ramply" 
+              href="https://twitter.com/ramply_xyz" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-primary transition-smooth"
@@ -19,13 +19,13 @@ const Index = () => {
             </a>
             
             <a 
-              href="https://github.com/ramply" 
+              href="https://linkedin.com/company/ramply_xyz" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-primary transition-smooth"
-              aria-label="View Ramply on GitHub"
+              aria-label="View Ramply on LinkedIn"
             >
-              <Github className="w-4 h-4" />
+              <Linkedin className="w-4 h-4" />
             </a>
           </nav>
         </div>
