@@ -54,7 +54,7 @@ const Index = () => {
               variant="hero" 
               size="lg"
               className="min-w-[200px]"
-              onClick={() => window.open('https://docs.google.com/forms/d/e/1FAIpQLSdExample/viewform', '_blank')}
+              onClick={() => window.open('https://form.typeform.com/to/gMEaJWgP', '_blank')}
               aria-label="Join waitlist for early access to Ramply crypto exchange platform"
             >
               Join Waitlist
