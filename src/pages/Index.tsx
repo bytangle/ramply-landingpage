@@ -19,7 +19,7 @@ const Index = () => {
             </a>
             
             <a 
-              href="https://linkedin.com/company/ramply_xyz" 
+              href="https://linkedin.com/company/ramply-xyz" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-primary transition-smooth p-1"
@@ -260,7 +260,7 @@ const Index = () => {
       <footer className="py-3 sm:py-4 px-4 sm:px-6 flex-shrink-0" role="contentinfo">
         <div className="max-w-6xl mx-auto text-center">
           <p className="text-xs text-muted-foreground">
-            &copy; 2024 Ramply. All rights reserved.
+            &copy; 2025 Ramply. All rights reserved.
             <span className="sr-only">Seamless cryptocurrency to local fiat exchange platform</span>
           </p>
         </div>
