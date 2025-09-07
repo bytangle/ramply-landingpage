@@ -4,33 +4,30 @@ const HowItWorks = () => {
   const steps = [
     {
       icon: DollarSign,
-      title: "Enter Amount & Details",
-      description: "Specify the amount and currency pair you want to exchange. Choose between local currency to crypto or crypto to local currency.",
-      delay: "0s"
+      title: "input_amount()",
+      description: "Specify amount + currency pair",
     },
     {
       icon: CreditCard,
-      title: "Get Payment Instructions",
-      description: "Receive secure payment instructions tailored to your transaction. Multiple payment methods supported.",
-      delay: "0.2s"
+      title: "get_instructions()",
+      description: "Receive secure payment flow",
     },
     {
       icon: Zap,
-      title: "Receive Instantly",
-      description: "Get your crypto or fiat instantly after confirmation. Support for stablecoins and native coins across multiple networks.",
-      delay: "0.4s"
+      title: "receive_crypto()",
+      description: "Instant settlement + confirmation",
     }
   ];
 
   return (
     <section className="py-20 px-6 bg-muted/30">
       <div className="max-w-6xl mx-auto">
-        <div className="text-center mb-16 animate-fade-in">
-          <h2 className="text-4xl md:text-5xl font-bold mb-6 text-foreground">
-            How It Works
+        <div className="text-center mb-12 animate-fade-in">
+          <h2 className="text-3xl md:text-4xl font-bold mb-4 text-foreground">
+            how_it_works()
           </h2>
-          <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Simple, fast, and secure. Get started with Ramply in three easy steps.
+          <p className="text-lg text-muted-foreground">
+            Three simple steps. That's it.
           </p>
         </div>
         
@@ -38,18 +35,17 @@ const HowItWorks = () => {
           {steps.map((step, index) => (
             <div 
               key={index}
-              className="bg-card rounded-2xl p-8 shadow-card hover:shadow-elegant transition-smooth animate-slide-up text-center"
-              style={{ animationDelay: step.delay }}
+              className="bg-card rounded-xl p-6 shadow-card hover:shadow-elegant transition-smooth text-center"
             >
-              <div className="w-16 h-16 gradient-primary rounded-full flex items-center justify-center mx-auto mb-6">
-                <step.icon className="w-8 h-8 text-white" />
+              <div className="w-12 h-12 gradient-primary rounded-lg flex items-center justify-center mx-auto mb-4">
+                <step.icon className="w-6 h-6 text-white" />
               </div>
               
-              <h3 className="text-xl font-semibold mb-4 text-foreground">
+              <h3 className="text-lg font-semibold mb-2 text-foreground">
                 {step.title}
               </h3>
               
-              <p className="text-muted-foreground leading-relaxed">
+              <p className="text-muted-foreground text-sm">
                 {step.description}
               </p>
             </div>
