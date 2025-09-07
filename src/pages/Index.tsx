@@ -1,6 +1,6 @@
 import { ArrowRight, Code, Smartphone, Wallet } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import heroBackground from "@/assets/hero-bg.jpg";
+import heroBackground from "@/assets/hero-bg-dark.jpg";
 import HowItWorks from "@/components/HowItWorks";
 import ForDevelopers from "@/components/ForDevelopers";
 import ForConsumers from "@/components/ForConsumers";
@@ -20,7 +20,7 @@ const Index = () => {
         }}
       >
         {/* Overlay */}
-        <div className="absolute inset-0 bg-background/90"></div>
+        <div className="absolute inset-0 bg-background/80"></div>
         
         <div className="relative z-10 max-w-4xl mx-auto text-center animate-fade-in">
           <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold mb-6 text-foreground leading-tight">
