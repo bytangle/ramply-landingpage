@@ -47,16 +47,6 @@ const Index = () => {
               Join the Waitlist
               <ArrowRight className="ml-2" />
             </Button>
-            
-            <Button 
-              variant="outline" 
-              size="xl"
-              className="animate-slide-up"
-              style={{ animationDelay: '0.2s' }}
-            >
-              View API Docs
-              <Code className="ml-2" />
-            </Button>
           </div>
           
           {/* Floating elements */}

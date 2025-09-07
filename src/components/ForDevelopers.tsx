@@ -14,7 +14,7 @@ const ForDevelopers = () => {
             
             <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
               Integrate Ramply APIs to accept fiat and payout crypto. 
-              Built for developers, designed for scale.
+              Built for developers, designed for scale. Documentation coming soon.
             </p>
             
             <div className="space-y-6 mb-8">
@@ -49,8 +49,13 @@ const ForDevelopers = () => {
               </div>
             </div>
             
-            <Button variant="gradient" size="lg" className="animate-slide-up">
-              View API Docs
+            <Button 
+              variant="gradient" 
+              size="lg" 
+              className="animate-slide-up"
+              onClick={() => window.open('https://docs.google.com/forms/d/e/1FAIpQLSdExample/viewform', '_blank')}
+            >
+              Join the Waitlist
               <Code className="ml-2" />
             </Button>
           </div>
