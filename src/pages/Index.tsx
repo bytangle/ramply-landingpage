@@ -1,6 +1,6 @@
 import { ArrowRight, Code, Smartphone, Wallet } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import heroBackground from "@/assets/hero-bg-light.jpg";
+import heroBackground from "@/assets/hero-bg-v2.jpg";
 import HowItWorks from "@/components/HowItWorks";
 import ForDevelopers from "@/components/ForDevelopers";
 import ForConsumers from "@/components/ForConsumers";
@@ -31,8 +31,10 @@ const Index = () => {
           </h1>
           
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto leading-relaxed">
-            Bridge NGN ↔ Crypto instantly — stablecoins and native coins supported. 
-            API-first. Local money in, crypto out.
+            Seamlessly bridge Nigerian Naira and cryptocurrency with instant conversions. 
+            Support for stablecoins and native tokens like BTC & ETH. 
+            <br className="hidden md:block" />
+            <span className="font-medium text-foreground">API-first platform</span> — convert local currency to crypto and back with ease.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
